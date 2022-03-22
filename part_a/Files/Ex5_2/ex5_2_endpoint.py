@@ -101,8 +101,8 @@ class Flight(Trip):
       code: Identification code for the aircraft.
     """
 
-    def __init__(self, *args, flight_number=-1, cost=0.0, code=0, **kwargs):
-        """Initializes a Flight with flight number -1, $0 cost and aircraft ID 0 (by default)."""
+    def __init__(self, flight_number, cost, code, *args, **kwargs):
+        """Initializes a Flight."""
 
         self.flight_number = flight_number
         self.cost = cost
@@ -125,8 +125,8 @@ my_flight = Flight(
     flight_number=the_flight_number,
     cost=the_cost,
     code=craft_code,
-    departcity=the_departure_city,
-    arrivecity=the_arrival_city,
+    departure_city=the_departure_city,
+    arrival_city=the_arrival_city,
     departure_day_time=the_departure_day_time,
     arrival_day_time=the_arrival_day_time,
 )

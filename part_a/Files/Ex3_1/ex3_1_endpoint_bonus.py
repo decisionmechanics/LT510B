@@ -75,12 +75,11 @@ flight_dictionary = {
     1572: ["HNL", "HNL", "2022-01-03 09:40", "2022-01-03 16:10", 125.0, 2],
 }
 
-
 print("The flights from HNL", end="")
 print([code for code, flight in flight_dictionary.items() if flight[0] == "HNL"])
 
 print("The roundtrip flights", end="")
-print([code for code, flight in flight_dictionary if flight[0] == flight[1]])
+print([code for code, flight in flight_dictionary.items() if flight[0] == flight[1]])
 
 print("The sorted flights")
 keylist = list(flight_dictionary)

@@ -86,7 +86,7 @@ def flights_per_cities(departure_code, arrival_code):
 
     return [
         code
-        for code, flight in flight_dictionary
+        for code, flight in flight_dictionary.items()
         if flight[0] == departure_code and flight[1] == arrival_code
     ]
 
