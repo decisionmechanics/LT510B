@@ -1,6 +1,8 @@
 """Starting point for Exercise 2.1: Strings and Conditionals.
 
-In this exercise, you will gain experience working with Python's string type and its operations. To do this, you will
+In this exercise, you will gain experience working with Python's string type and its operations.
+
+To do this, you will
 
 - Use slicing techniques to extract substrings
 - Use built-in methods to test strings
