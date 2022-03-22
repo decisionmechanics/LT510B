@@ -1,4 +1,4 @@
-flightnum,departcity,arrivecity,departdaytime,arrivedaytime,cost,code
+flight_number,departure_city,arrival_city,departure_day_time,arrival_day_time,cost,code
 1587,"CUR","HNL","2022-01-02 12:00","2022-01-02 20:00",299.99,2
 102,"HNL","HKG","2022-01-03 04:00","2022-01-03 08:00",99.95,4
 105,"HNL","HKG","2022-01-03 06:00","2022-01-03 11:00",99.95,4
